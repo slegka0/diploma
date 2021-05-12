@@ -1,0 +1,99 @@
+.diploma__logo {
+  padding-top: 10px;
+  height: 25px;
+  width: 150px;
+}
+
+.diploma__heart {
+  height: 55px;
+  width: 55px;
+}
+
+.diploma__stamp {
+  position: static;
+  padding-top: 50px;
+  padding-left: 280px;
+}
+
+.diploma__stamp>img {
+  width: 225px;
+}
+
+@page {
+  size: A4;
+  font-family: Graphik, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #F8F8F8;
+}
+
+.diploma__container {
+  padding: 50px 60px 55px 60px;
+  background-color: #F8F8F8;
+  width: 680px;
+  height: 1020px;
+  margin: 0 auto;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.diploma__content {
+  padding-top: 50px;
+}
+
+.diploma__title {
+  font-family: Graphik LC, sans-serif;
+  font-size: 54px;
+  line-height: 50px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.diploma__name {
+  color: #F59122 !important;
+}
+
+.diploma__course-name {
+  color: #723189;
+  white-space: pre-wrap !important;
+}
+
+.diploma__text {
+  font-family: Graphik LC, sans-serif;
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: normal;
+}
+
+.diploma__date {
+  font-family: Graphik LC, sans-serif;
+  width: 200px;
+  height: 20px;
+  font-weight: normal;
+  font-size: 20px;
+  padding-top: 205px;
+}
+
+.diploma__footer {
+  padding-top: 215px;
+  display: flex;
+  position: relative;
+}
+
+@media (max-width: 590px) {
+  .diploma__text {
+    font-family: Graphik LC, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 400px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .diploma__footer {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+}
